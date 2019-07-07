@@ -1,10 +1,10 @@
 # DNS_Toolkit
 
 Fitur :
-1. DNS Server
+- DNS Server
 
 Di Uji :
-1. Linux 4.19.0-kali5-amd64 #1 SMP Debian 4.19.37-2kali1 (2019-05-15) x86_64 GNU/Linux
+- Linux 4.19.0-kali5-amd64 #1 SMP Debian 4.19.37-2kali1 (2019-05-15) x86_64 GNU/Linux
 
 Instalasi (Root Access) :
 1. apt update && apt upgrade
