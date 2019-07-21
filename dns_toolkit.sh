@@ -142,7 +142,7 @@ sed -i "s/ $ipdns4       IN      PTR     server.$domain./$ipdns4       IN      P
 echo -e $ins"File Configuration Added...!" && $sleep
 
 echo -e $ins"Configure File 'resolv.conf' ...!" && $sleep
-echo "nameserver $ipdns1.$ipdns2.$ipdns3.$ipdns4" > /etc/resolv.conf
+echo "nameserver $ipdns1.$ipdns2.$ipdns3.$ipdns4" >> /etc/resolv.conf
 echo -e $ins"File Configuration Added...!" && $sleep
 
 banner
